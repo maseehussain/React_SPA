@@ -1,4 +1,9 @@
 import React from "react";
+import { Route, NavLink, HashRouter } from "react-router-dom";
+
+import Home from "./components/Home";
+import Stuff from "./components/Stuff";
+import Contact from "./components/Contact";
 
 class App extends React.Component {
   render() {
