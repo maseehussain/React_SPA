@@ -13,13 +13,13 @@ class App extends React.Component {
           <h1>Simple SPA</h1>
           <ul className="header">
             <li>
-              <a href="/">Home</a>
+              <NavLink href="/">Home</NavLink>
             </li>
             <li>
-              <a href="/stuff">Stuff</a>
+              <NavLink href="/stuff">Stuff</NavLink>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <NavLink href="/contact">Contact</NavLink>
             </li>
           </ul>
           <div className="content" />
