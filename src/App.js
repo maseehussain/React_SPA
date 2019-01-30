@@ -25,7 +25,7 @@ class App extends React.Component {
             </li>
           </ul>
           <div className="content">
-            <Route path="/" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/stuff" component={Stuff} />
             <Route path="/contact" component={Contact} />
           </div>
