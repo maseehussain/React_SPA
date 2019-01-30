@@ -6,10 +6,17 @@ class App extends React.Component {
       <div>
         <h1>Simple SPA</h1>
         <ul className="header">
-          <li>Home</li>
-          <li>Stuff</li>
-          <li>Contact</li>
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/stuff">Stuff</a>
+          </li>
+          <li>
+            <a href="/contact">Contact</a>
+          </li>
         </ul>
+        <div className="content" />
       </div>
     );
   }
