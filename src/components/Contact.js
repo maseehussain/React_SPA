@@ -5,9 +5,7 @@ class Contact extends React.Component {
     return (
       <div>
         <h2>Got questions?</h2>
-        <p>
-          <a mailto="masee@masee.com">Masee</a>
-        </p>
+        <p>Masee</p>
       </div>
     );
   }
