@@ -13,7 +13,9 @@ class App extends React.Component {
           <h1>Simple SPA</h1>
           <ul className="header">
             <li>
-              <NavLink to="/">Home</NavLink>
+              <NavLink exact to="/">
+                Home
+              </NavLink>
             </li>
             <li>
               <NavLink to="/stuff">Stuff</NavLink>
@@ -23,7 +25,7 @@ class App extends React.Component {
             </li>
           </ul>
           <div className="content">
-            <Route exact path="/" component={Home} />
+            <Route path="/" component={Home} />
             <Route path="/stuff" component={Stuff} />
             <Route path="/contact" component={Contact} />
           </div>
